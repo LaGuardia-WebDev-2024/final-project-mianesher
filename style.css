@@ -4,11 +4,14 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  background-color: #334f7d
 }
+
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul.nav {
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,26 +23,27 @@ ul.nav {
   z-index: 999;
 }
 
-ul.nav li {
+li {
   float: left;
 }
 
-ul.nav li a {
+li a {
   display: block;
-  color: white;
+  color: #a8c4ed;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+li a:hover:not(.active) {
+  background-color: #56337d;
 }
 
-ul.nav .active {
-  background-color: red;
+.active {
+  background-color: #56337d;
 }
 
 h1 {
   width: 100%;
+  font-family: "Rock Salt", cursive;
 }
